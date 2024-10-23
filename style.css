@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    border: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    font-weight: 150;
+    
+}
+body {
+    background-color: #000000;
+    
+}
+.biggest {
+    display: flex;
+}
+.rightside {
+    height: 87.5vh;
+    width: 24.26vw;
+    background-color: #000000;
+    margin: 0.89vh 0.5vw 0.8vh 0.5vw;
+    position: fixed;
+    
+   
+    
+}
+
+.big {
+    background-color: #121212;
+    width: 75.5vw;
+    height: 87.5vh;
+    margin: 0.89vh 0.8vw 0.8vh 0.2vw;
+    border-radius: 0.7%;
+    margin-left: 25.6vw;
+}
+.rightside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+.menu {
+    height: 23.7vh;
+    width: 23.1vw;
+    background-color: #121212;
+    margin: 0.5vh 0 0.5vh 0;
+    border-radius: 0.7%;
+    
+    
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.home i {
+    color: white;
+}
+.home {
+    color: white;
+}
+.menuedit {
+    width: 8vw;
+    height: 5vh;
+    background-color: #121212;
+    padding: 1vh 0.5vw 0.5vh 1.1vw;
+    font-size: 2.7vh;
+    
+}
+.rightpadding {
+    padding-right: 1vw;
+}
+.spotify {
+    color: green;
+}
+.spotify i {
+    color: green;
+}
+.menuedit i {
+    font-size: 3.0vh;
+}
+.playlist {
+    height: 52vh;
+    width: 23.1vw;
+    background-color: #121212;
+    margin: 0.5vh 0 0.5vh 0;
+    border-radius: 0.7%;
+}
+.thanks {
+    height: 8.91vh;
+    width: 23.1vw;
+    background-color: #121212;
+    margin: 0.5vh 0 0.5vh 0;
+    border-radius: 0.7%;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,88,1) 82%, rgba(0,212,255,1) 100%);
+    
+}
+.bottom {
+    height: 10vh;
+    width: 99vw; 
+    /* background: linear-gradient(to right, #ae2896, #509bf5); */
+    background-color: #121212;
+    border-radius: 0.7%;
+    position: fixed;
+    bottom: 0.9%;
+    display: flex;
+    left: 0.5%;
+    align-items: center;
+    justify-content: center;
+    
+       
+}
+.bottombot {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,88,1) 82%, rgba(0,212,255,1) 100%);
+    height: 8.7vh;
+    width: 97.5vw;
+    border-radius: 0.7%;
+    /* align-items: center;
+    justify-content: center; */
+}
+.yourlibrary {
+ height: 6.7vh;
+ background-color: #121212;   
+ width: 23.1vw;
+ display: flex;
+ align-items: center;
+ color: white;
+}
+.yourlibrary i {
+    color: white;
+
+}
+.yourlibrary {
+    color: white;
+}
+.library {
+    position: absolute;
+    left: 6%;
+    color: white;
+}
+.plussign {
+    position: absolute;
+    right: 8%;
+}
+.playlist1 {
+    font-size: 2.7vh;
+    
+}
+.playlist1 i {
+    font-size: 3vh;
+}
+.pp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 40vh;
+    width: 23.1vw;
+    background-color: #121212;
+    margin: 0.5vh 0 0.5vh 0;
+    border-radius: 0.7%;
+
+}
+.ppedit {
+    height: 20.7vh;
+    width: 20.1vw;
+    background-color: #212121;
+    margin: 0.5vh 0 0.5vh 0;
+    border-radius: 0.7%;
+    
+}
+.createp1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.ppedit2 {
+    
+    margin: 1.3vh 0 1.3vh 2.1vh;
+    font-size: 2.4vh;
+    color: white;
+    
+}
+.ppedit3 {
+    color: white;
+    
+}
+.createp11 {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 2vh;
+    font-weight: bold;
+    padding: 0.8vh 1vw;
+    height: 2.7vh;
+    width: 6.4vw;
+    border: 0px;
+    border-radius: 40px;
+    
+    text-align: center;
+}
+/* #O1 {
+    height: 2vh;
+    width: 2vh;
+    background-color: lightblue;
+    border-radius: 50%;
+}
+#O2 {
+    height: 2vh;
+    width: 2vh;
+    background-color: lightblue;
+    border-radius: 50%;
+} */
+.easyp1 {
+    font-size: 2.3vh;
+    font-weight: 200;
+}
+.createp22 {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 2vh;
+    font-weight: bold;
+    padding: 0.8vh 1vw;
+    height: 2.7vh;
+    width: 9vw;
+    border: 0px;
+    border-radius: 40px;
+    
+    
+    text-align: center;
+} 
+.ppedit3 {
+    margin: 1.3vh 0 1.3vh 2.1vh;
+    /* font-size: 2.4vh; */
+    
+}
+.createp2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.thanks {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-size: 3.2vh;
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+}
+.rightb {
+    color: white;
+}
+.bottombot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.signupfree {
+    padding: 2vh 2.4vw 2vh 2.4vw;
+    margin: 4vh;
+    background-color: white;
+    color: black;
+    border-radius: 40px;   
+    border-color: white;
+}
+.rightb {
+    margin: 0.6vh 1vw;
+}
+.navbar {
+    height: 9vh;
+    width: 100%;
+    background-image: linear-gradient(140deg, #000000 0%, #212121 50%, #212121 75%);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.LRbuttons {
+    display: flex;
+    
+    margin: 3vh;
+    padding: 1vh;
+
+}
+.circleb {
+    border-radius: 40px;
+    padding: 1vh 1.3vw 1vh 1.3vw;
+    margin: 1vh;
+    background-color: black;
+    font-size: 2.7vh;
+}
+.rightbuttons {
+    display: flex;
+}
+.SL {
+    margin: 1.6vh;
+    padding: 2vh 2vw 2vh 2vw;
+}
+.login2 {
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+}
+.signup2 {
+    color: white;
+}
+.popularartists {
+    height: 45%;
+    background-color: #212121;
+    width: 100%;
+}
+.topPA {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #121212;
+    height: 17%;
+}
+.theartists {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 80%;
+   background-color: #121212;
+
+} 
+.box {
+    height: 90%;
+    border: transparent solid 1px;
+    width: 15%;
+    
+}
+.image {
+    height: 80%;
+    width: 100%;
+    background-image: url(https://www.dolby.com/globalassets/consumer/the-weeknd/the_weeknd.jpg);
+    background-size: cover;
+    background-color: blue;
+    border-radius: 60%;
+    
+    
+}
+.artistinfo {
+    background-color: transparent;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.bruh {
+    margin: 1.4vh;
+    padding: 1vh;
+}
+.PAname {
+    font-size: 3.4vh;
+    color: white;
+
+}
+.spotify {
+    font-size: x-large;
+}
